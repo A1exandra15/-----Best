@@ -82,7 +82,7 @@ const DATA = [
     } 
    ]},
 
-  {cat:"Відрізні диски", img:"images/photo_2026-08-15_18-05-12.jpg", brands:["BEST"],
+  {cat:"Відрізні диски", images:["images/photo_2026-08-15_18-05-12.jpg", "images/photo_2026-08-15_18-05-14.jpg"], brands:["BEST"],
    name:"Диск відрізний", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Товщина"],
    rows:[
@@ -532,15 +532,68 @@ function render(){
 
     card.innerHTML=`
       <div class="card-media">
-        <div class="brands">${brands}</div>
-        <span class="cat-pill">${d.cat}</span>
-        <img src="${d.img}" alt="${d.name}" loading="lazy">
+  <div class="brands">${brands}</div>
+  <span class="cat-pill">${d.cat}</span>
+
+  <div class="product-slider">
+    <img
+      class="slider-img"
+      src="${d.images ? d.images[0] : d.img}"
+      alt="${d.name}"
+      loading="lazy"
+    >
+
+    ${d.images && d.images.length > 1 ? `
+      <button class="slider-btn slider-prev" type="button">‹</button>
+      <button class="slider-btn slider-next" type="button">›</button>
+
+      <div class="slider-dots">
+        ${d.images.map((_, i) =>
+          `<span class="slider-dot ${i === 0 ? 'active' : ''}"></span>`
+        ).join('')}
       </div>
+    ` : ''}
+  </div>
+</div>
       <div class="card-head"><h3>${d.name}</h3><div class="sub">${d.sub}</div></div>
       <div class="card-body"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>
       <div class="card-foot"><span class="n">${d.rows.length} позиц.</span>
         <button class="btn-ask" data-name="${d.name}">Запит ціни</button></div>`;
     grid.appendChild(card);
+    if (d.images && d.images.length > 1) {
+  let currentImage = 0;
+
+  const img = card.querySelector(".slider-img");
+  const prev = card.querySelector(".slider-prev");
+  const next = card.querySelector(".slider-next");
+  const dots = card.querySelectorAll(".slider-dot");
+
+  function showImage(index) {
+    currentImage = index;
+
+    if (currentImage < 0) {
+      currentImage = d.images.length - 1;
+    }
+
+    if (currentImage >= d.images.length) {
+      currentImage = 0;
+    }
+
+    img.src = d.images[currentImage];
+
+    dots.forEach((dot, i) => {
+      dot.classList.toggle("active", i === currentImage);
+    });
+  }
+
+  prev.onclick = () => {
+    showImage(currentImage - 1);
+  };
+
+  next.onclick = () => {
+    showImage(currentImage + 1);
+  };
+}
   });
   document.querySelectorAll('.btn-ask').forEach(b=>b.onclick=()=>askPrice(b.dataset.name));
 }
