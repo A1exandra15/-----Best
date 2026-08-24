@@ -327,6 +327,10 @@ header{
     padding: 15px 18px;
 }
 
+.card-head h3{
+    color: var(--red-soft);
+}
+
 .sub{
     font-size: 12px;
     color: var(--txt-faint);
@@ -359,18 +363,18 @@ tbody td:first-child{
     color: var(--txt);
 }
 
-tbody tr:nth-child(odd) td {
-    /* border-bottom: 1px solid var(--line); */
-    /* background-color: #39394179; */
-}
+/* tbody tr:nth-child(odd) td {
+    border-bottom: 1px solid var(--line); 0
+    background-color: #39394179; 
+} */
 
 tbody tr:nth-child(even) td {
     /* border-bottom: 2px solid var(--cyan); */
-    background-color: #ff452c2c;
+    background-color: #ff452c1b;
 }
 
 tbody td{
-    padding: 8px 12px;
+    padding: 5px 12px;
     color: var(--txt-dim);
     /* border-top: 1px solid  var(--cyan); */
     
@@ -380,10 +384,10 @@ tbody td{
     border-left: 1px solid  var(--cyan);
 } */
 
-.price{
+/* .price{
     color: var(--red-soft);
     font-weight: 600;
-}
+} */
 
 .variants,
 .prices {
@@ -394,6 +398,10 @@ tbody td{
 
 .price-label {
     font-weight: 600;
+}
+
+.prices span{
+    color: var(--red-soft);
 }
 
 
