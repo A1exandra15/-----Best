@@ -6,37 +6,37 @@ const DATA = [
    rows:[
     {
       diameter: "125 мм",
-      thickness: ["1,0", "1,2", "1,6"],
+      thickness: ["1,0 мм", "1,2 мм", "1,6 мм"],
       prices: ["15,00", "16,00", "17,00"]
     },
     {
       diameter: "150 мм",
-      thickness: ["1,6", "2,0"],
+      thickness: ["1,6 мм", "2,0 мм"],
       prices: ["20,00", "22,00"]
     },
     {
       diameter: "180 мм",
-      thickness: ["1,6", "2,0"],
+      thickness: ["1,6 мм", "2,0 мм"],
       prices: ["25,00", "26,00"]
     },
     {
       diameter: "230 мм",
-      thickness: ["2,0", "2,5"],
+      thickness: ["2,0 мм", "2,5 мм"],
       prices: ["40,00", "42,00"]
     },
     {
       diameter: "300(305) мм",
-      thickness: ["3,0", "3,5"],
+      thickness: ["3,0 мм", "3,5 мм"],
       prices: ["60,00", "70,00"]
     },
     {
       diameter: "350(355) мм",
-      thickness: ["3,5", "4,0"],
+      thickness: ["3,5 мм", "4,0 мм"],
       prices: ["100,00", "120,00"]
     },
     {
       diameter: "400(405) мм",
-      thickness: ["3,5", "4,0"],
+      thickness: ["3,5 мм", "4,0 мм"],
       prices: ["150,00", "160,00"]
     }
    ]},
@@ -47,231 +47,231 @@ const DATA = [
    rows:[
     {
       diameter: "125 мм",
-      thickness: ["1,0", "1,2", "1,6"],
+      thickness: ["1,0 мм", "1,2 мм", "1,6 мм"],
       prices: ["15,00", "16,00", "17,00"]
     },
     {
       diameter: "150 мм",
-      thickness: ["1,6", "2,0"],
+      thickness: ["1,6 мм", "2,0 мм"],
       prices: ["20,00", "22,00"]
     },
     {
       diameter: "180 мм",
-      thickness: ["1,6", "2,0"],
+      thickness: ["1,6 мм", "2,0 мм"],
       prices: ["25,00", "26,00"]
     },
     {
       diameter: "230 мм",
-      thickness: ["2,0", "2,5"],
+      thickness: ["2,0 мм", "2,5 мм"],
       prices: ["40,00", "42,00"]
     },
     {
       diameter: "300(305) мм",
-      thickness: ["3,0", "3,5"],
+      thickness: ["3,0 мм", "3,5 мм"],
       prices: ["60,00", "70,00"]
     },
     {
       diameter: "350(355) мм",
-      thickness: ["3,5", "4,0"],
+      thickness: ["3,5 мм", "4,0 мм"],
       prices: ["100,00", "120,00"]
     },
     {
       diameter: "400(405) мм",
-      thickness: ["3,5", "4,0"],
+      thickness: ["3,5 мм", "4,0 мм"],
       prices: ["150,00", "160,00"]
     } 
    ]},
 
-  {cat:"Відрізні диски", images:["images/photo_2026-08-15_18-05-12.jpg", "images/photo_2026-08-15_18-05-14.jpg"], brands:["BEST"],
+  {cat:"Відрізні диски", images:["images/photo_2026-08-15_18-05-12.jpg", "images/photo_2026-08-15_18-05-14.jpg"], brands:["ЗАК"],
    name:"Диск відрізний", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Товщина"],
    rows:[
     {
       diameter: "125 мм",
-      thickness: ["1,0", "1,2", "1,6"],
+      thickness: ["1,0 мм", "1,2 мм", "1,6 мм"],
       prices: ["15,00", "16,00", "17,00"]
     },
     {
       diameter: "150 мм",
-      thickness: ["1,6", "2,0"],
+      thickness: ["1,6 мм", "2,0 мм"],
       prices: ["20,00", "22,00"]
     },
     {
       diameter: "180 мм",
-      thickness: ["1,6", "2,0"],
+      thickness: ["1,6 мм", "2,0 мм"],
       prices: ["25,00", "26,00"]
     },
     {
       diameter: "230 мм",
-      thickness: ["2,0", "2,5"],
+      thickness: ["2,0 мм", "2,5 мм"],
       prices: ["40,00", "42,00"]
     },
     {
       diameter: "300(305) мм",
-      thickness: ["3,0", "3,5"],
+      thickness: ["3,0 мм", "3,5 мм"],
       prices: ["60,00", "70,00"]
     },
     {
       diameter: "350(355) мм",
-      thickness: ["3,5", "4,0"],
+      thickness: ["3,5 мм", "4,0 мм"],
       prices: ["100,00", "120,00"]
     },
     {
       diameter: "400(405) мм",
-      thickness: ["3,5", "4,0"],
+      thickness: ["3,5 мм", "4,0 мм"],
       prices: ["150,00", "160,00"]
     }
    ]},
 
-  {cat:"Відрізні диски", img:"images/photo_2026-08-15_18-05-16.jpg", brands:["BEST"],
+  {cat:"Відрізні диски", img:"images/photo_2026-08-15_18-05-16.jpg", brands:["Klingspor Kronenflex"],
    name:"Диск відрізний", sub:"Підвищений ресурс, Т27 / Т29",
    cols:["Діаметр","Товщина"],
    rows:[
     {
       diameter: "125 мм",
-      thickness: ["1,0", "1,2", "1,6"],
+      thickness: ["1,0 мм", "1,2 мм", "1,6 мм"],
       prices: ["15,00", "16,00", "17,00"]
     },
     {
       diameter: "150 мм",
-      thickness: ["1,6", "2,0"],
+      thickness: ["1,6 мм", "2,0 мм"],
       prices: ["20,00", "22,00"]
     },
     {
       diameter: "180 мм",
-      thickness: ["1,6", "2,0"],
+      thickness: ["1,6 мм", "2,0 мм"],
       prices: ["25,00", "26,00"]
     },
     {
       diameter: "230 мм",
-      thickness: ["2,0", "2,5"],
+      thickness: ["2,0 мм", "2,5 мм"],
       prices: ["40,00", "42,00"]
     },
     {
       diameter: "300(305) мм",
-      thickness: ["3,0", "3,5"],
+      thickness: ["3,0 мм", "3,5 мм"],
       prices: ["60,00", "70,00"]
     },
     {
       diameter: "350(355) мм",
-      thickness: ["3,5", "4,0"],
+      thickness: ["3,5 мм", "4,0 мм"],
       prices: ["100,00", "120,00"]
     },
     {
       diameter: "400(405) мм",
-      thickness: ["3,5", "4,0"],
+      thickness: ["3,5 мм", "4,0 мм"],
       prices: ["150,00", "160,00"]
     }
    ]},
 
 
-  {cat:"Пелюсткові диски", img:"images/8j8oxf8itlbiet8aewyjwui51qhqn2qj.png", brands:["BEST"],
+  {cat:"Зачисні диски", img:"images/Шліф диск Ataman.jpg", brands:["ATAMAN"],
    name:"Диск зачисний", sub:"125 мм, Т27 / Т29",
    cols:["Діаметр","Товщина"],
    rows:[
     {
       diameter: "125 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["25,00", "26,00"]
     },
     {
       diameter: "150 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["30,00", "32,00"]
     },
     {
       diameter: "180 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["40,00", "50,00"]
     },
     {
       diameter: "230 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["60,00", "70,00"]
     },
    ]},
 
-  {cat:"Пелюсткові диски", img:"images/8j8oxf8itlbiet8aewyjwui51qhqn2qjф.png", brands:["BEST"],
+  {cat:"Зачисні диски", img:"images/Шліф диск Gerrard.jpg", brands:["GERRARD"],
    name:"Диск зачисний", sub:"125 мм, Т27 / Т29",
    cols:["Діаметр","Товщина"],
    rows:[
     {
       diameter: "125 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["25,00", "26,00"]
     },
     {
       diameter: "150 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["30,00", "32,00"]
     },
     {
       diameter: "180 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["40,00", "50,00"]
     },
     {
       diameter: "230 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["60,00", "70,00"]
     },
    ]},
 
-  {cat:"Пелюсткові диски", img:"images/8j8oxf8itlbiet8aewyjwui51qhqnц2qj.png", brands:["BEST"],
+  {cat:"Зачисні диски", img:"images/Шліф диск ZAK.jpg", brands:["ЗАК"],
    name:"Диск зачисний", sub:"Нормальний, 125 мм, Т27 / Т29",
    cols:["Діаметр","Товщина"],
    rows:[
     {
       diameter: "125 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["25,00", "26,00"]
     },
     {
       diameter: "150 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["30,00", "32,00"]
     },
     {
       diameter: "180 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["40,00", "50,00"]
     },
     {
       diameter: "230 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["60,00", "70,00"]
     },
    ]},
 
-  {cat:"Електроди", img:"images/photo_2026-08-15_18-05-10.jpg", brands:["Sumy Electrode","Astorel-RC"],
+  {cat:"Зачисні диски", img:"images/Шліф диск Kronpflex.jpg", brands:["Klingspor Kronenflex"],
    name:"Диск зачисний", sub:"АНО-21 · АНО-36, рутилові",
    cols:["Діаметр","Товщина"],
    rows:[
     {
       diameter: "125 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["25,00", "26,00"]
     },
     {
       diameter: "150 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["30,00", "32,00"]
     },
     {
       diameter: "180 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["40,00", "50,00"]
     },
     {
       diameter: "230 мм",
-      thickness: ["6,0", "6,3"],
+      thickness: ["6,0 мм", "6,3 мм"],
       prices: ["60,00", "70,00"]
     },
    ]},
 
 
 
-  {cat:"Зварювальний дріт", img:"images/photo_2026-08-15_18-05-12.jpg", brands:["BEST","Dneprometiz"],
+  {cat:"Зачисні диски", img:"images/photo_2026-08-15_18-05-12.jpg", brands:["BEST","Dneprometiz"],
    name:"Шліфувальний КЛТ Диск", sub:"СВ08Г2С, для напівавтомата",
    cols:["Зерно","Тип"],
    rows:[
