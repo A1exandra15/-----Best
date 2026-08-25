@@ -395,7 +395,7 @@ const DATA = [
     },
 ]},
 
- {cat:"Зачисні диски", img:"images/КЛТ 1.png", brands:["BEST","Dneprometiz"],
+ {cat:"Зачисні диски", img:"images/images (1).jpg", brands:["BEST","Dneprometiz"],
    name:"Зварювальна проволока", sub:"СВ08Г2С, для напівавтомата",
    cols:["Зерно","Тип"],
    rows:[
@@ -426,7 +426,7 @@ const DATA = [
     },
    ]},
 
-  {cat:"Відрізні диски", img:"images/цирконий.png", brands:["GERRARD","BEST"],
+  {cat:"Відрізні диски", img:"images/images (2).jpg", brands:["GERRARD","BEST"],
    name:"Зварювальна проволока", sub:"Метал / нержавіюча сталь, A60S-BF41",
    cols:["Зерно","Тип"],
    rows:[
@@ -457,7 +457,7 @@ const DATA = [
     },
    ]},
 
-  {cat:"Зачисні диски", img:"images/КЛТ 3.png", brands:["BEST","GERRARD"],
+  {cat:"Зачисні диски", img:"images/images (3).jpg", brands:["BEST","GERRARD"],
    name:"Зварювальна проволока", sub:"Обдирка зварних швів, A60S-BF41",
    cols:["Зерно","Тип"],
    rows:[
@@ -488,7 +488,7 @@ const DATA = [
     },
    ]},
 
-  {cat:"Пелюсткові диски", img:"images/Корал.png", brands:["BEST"],
+  {cat:"Пелюсткові диски", img:"images/images (4).jpg", brands:["BEST"],
    name:"Зварювальна проволока", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Зерно","Тип"],
    rows:[
