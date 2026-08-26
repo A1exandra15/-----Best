@@ -436,10 +436,11 @@ tbody td:first-child{
 tbody tr:nth-child(even) td {
     /* border-bottom: 2px solid var(--cyan); */
     background-color: #ff452c1b;
+    border-bottom: 1px solid #7d1721;
 }
 
 tbody td{
-    padding: 5px 12px;
+    padding: 5px 10px;
     color: var(--txt-dim);
     /* border-top: 1px solid  var(--cyan); */
     
