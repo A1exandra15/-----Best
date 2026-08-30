@@ -674,19 +674,29 @@ function matches(d){
   const hay=(d.name+" "+d.sub+" "+d.cat+" "+d.brands.join(" ")+" "+d.rows.flat().join(" ")).toLowerCase();
   return hay.includes(query);
 }
+
+function highlight(text) {
+  if (!query) return text;
+
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`(${escaped})`, 'gi');
+
+  return String(text).replace(regex, '<mark class="search-highlight">$1</mark>');
+}
+
 function render(){
   const list=DATA.filter(matches);grid.innerHTML='';
   if(!list.length){grid.innerHTML='<div class="empty">За запитом нічого не знайдено. Спробуйте «диск», «125», «Р60» або «дріт».</div>';return;}
   list.forEach(d=>{
     const card=document.createElement('article');card.className='card';
-    const brands=d.brands.map(b=>`<span class="brand-tag">${b}</span>`).join('');
+    const brands=d.brands.map(b => `<span class="brand-tag">${highlight(b)}</span>`).join('');
     const head=d.cols.map(c=>`<th>${c}</th>`).join('');
     const body=d.rows.map(r => `
     <tr class="size-row">
-        <td>${r.diameter}</td>
+        <td>${highlight(r.diameter)}</td>
         <td>
             <div class="variants" style="grid-template-columns: repeat(${r.thickness.length}, 1fr)">
-                ${r.thickness.map(x => `<span>${x}</span>`).join("")}
+                ${r.thickness.map(x => `<span>${highlight(x)}</span>`).join("")}
             </div>
         </td>
     </tr>
@@ -726,7 +736,7 @@ function render(){
     ` : ''}
   </div>
 </div>
-      <div class="card-head"><h3>${d.name}</h3><div class="sub">${d.sub}</div></div>
+      <div class="card-head"><h3>${highlight(d.name)}</h3><div class="sub">${highlight(d.sub)}</div></div>
       <div class="card-body"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>
       <div class="card-foot"><span class="n">${d.rows.length} позиц.</span>
         <button class="btn-ask" data-name="${d.name}">Запит ціни</button></div>`;
