@@ -302,36 +302,6 @@ const DATA = [
     },
    ]},
 
-  {cat:"Пелюсткові диски", img:"images/цирконий.png", brands:["BEST"],
-   name:"Диск пелюстковий шліфувальний 'Цирконієвий' 90 пелюсток", sub:"Метал / нержавіюча сталь, A60S-BF41",
-   cols:["Зерно","Тип"],
-   rows:[
-    {
-      diameter: "Р 40",
-      thickness: ["Т29", "Т27"],
-      prices: ["20,00", "21,00"]
-    },
-    {
-      diameter: "Р 60",
-      thickness: ["Т29", "Т27"],
-      prices: ["20,00", "21,00"]
-    },
-    {
-      diameter: "Р 80",
-      thickness: ["Т29", "Т27"],
-      prices: ["20,00", "21,00"]
-    },
-    {
-      diameter: "Р 100",
-      thickness: ["Т29", "Т27"],
-      prices: ["20,00", "21,00"]
-    },
-    {
-      diameter: "Р 120",
-      thickness: ["Т29", "Т27"],
-      prices: ["20,00", "21,00"]
-    },
-   ]},
 
   {cat:"Пелюсткові диски", img:"images/КЛТ 3.png", brands:["BEST"],
    name:"Диск пелюстковий шлифувальный 'Карбід Кремнія'", sub:"Обдирка зварних швів, A60S-BF41",
@@ -364,6 +334,39 @@ const DATA = [
     },
    ]},
 
+
+  {cat:"Пелюсткові диски", img:"images/цирконий.png", brands:["BEST"],
+   name:"Диск пелюстковий шліфувальний 'Цирконієвий' 90 пелюсток", sub:"Метал / нержавіюча сталь, A60S-BF41",
+   cols:["Зерно","Тип"],
+   rows:[
+    {
+      diameter: "Р 40",
+      thickness: ["Т29", "Т27"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "Р 60",
+      thickness: ["Т29", "Т27"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "Р 80",
+      thickness: ["Т29", "Т27"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "Р 100",
+      thickness: ["Т29", "Т27"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "Р 120",
+      thickness: ["Т29", "Т27"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+
   {cat:"Пелюсткові диски", img:"images/Корал.png", brands:["BEST"],
    name:"Диск пелюстковий «Цирконієвий» шліфувальний", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Зерно","Тип"],
@@ -395,126 +398,257 @@ const DATA = [
     },
 ]},
 
- {cat:"Зачисні диски", img:"images/images (1).jpg", brands:["BEST","Dneprometiz"],
-   name:"Зварювальна проволока", sub:"СВ08Г2С, для напівавтомата",
-   cols:["Зерно","Тип"],
+ {cat:"Зачисні диски", img:"images/photo_2026-08-30_11-57-28.jpg", brands:["BEST","Dneprometiz"],
+   name:"Зварювальний дріт Оміднений", sub:"СВ08Г2С, для напівавтомата",
+   cols:["Діаметр","Вага"],
    rows:[
     {
-      diameter: "Р 40",
-      thickness: ["Т29", "Т27"],
+      diameter: "0,8",
+      thickness: ["5кг", "15к"],
       prices: ["20,00", "21,00"]
     },
     {
-      diameter: "Р 60",
-      thickness: ["Т29", "Т27"],
+      diameter: "1,0",
+      thickness: ["5к", "15к"],
       prices: ["20,00", "21,00"]
     },
     {
-      diameter: "Р 80",
-      thickness: ["Т29", "Т27"],
-      prices: ["20,00", "21,00"]
-    },
-    {
-      diameter: "Р 100",
-      thickness: ["Т29", "Т27"],
-      prices: ["20,00", "21,00"]
-    },
-    {
-      diameter: "Р 120",
-      thickness: ["Т29", "Т27"],
+      diameter: "1,2",
+      thickness: ["5к", "15к"],
       prices: ["20,00", "21,00"]
     },
    ]},
 
-  {cat:"Відрізні диски", img:"images/images (2).jpg", brands:["GERRARD","BEST"],
-   name:"Зварювальна проволока", sub:"Метал / нержавіюча сталь, A60S-BF41",
-   cols:["Зерно","Тип"],
+  {cat:"Відрізні диски", img:"images/photo_2026-08-30_11-57-37.jpg", brands:["GERRARD","BEST"],
+   name:"Зварювальні єлектроди Рутилові", sub:"Метал / нержавіюча сталь, A60S-BF41",
+   cols:["Діаметр","Вага"],
    rows:[
     {
-      diameter: "Р 40",
-      thickness: ["Т29", "Т27"],
+      diameter: "3",
+      thickness: ["1кг", "2,5кг", "5кг"],
       prices: ["20,00", "21,00"]
     },
     {
-      diameter: "Р 60",
-      thickness: ["Т29", "Т27"],
+      diameter: "4",
+      thickness: ["2,5кг", "5кг"],
       prices: ["20,00", "21,00"]
     },
     {
-      diameter: "Р 80",
-      thickness: ["Т29", "Т27"],
-      prices: ["20,00", "21,00"]
-    },
-    {
-      diameter: "Р 100",
-      thickness: ["Т29", "Т27"],
-      prices: ["20,00", "21,00"]
-    },
-    {
-      diameter: "Р 120",
-      thickness: ["Т29", "Т27"],
+      diameter: "5",
+      thickness: ["2,5кг", "5кг"],
       prices: ["20,00", "21,00"]
     },
    ]},
 
-  {cat:"Зачисні диски", img:"images/images (3).jpg", brands:["BEST","GERRARD"],
-   name:"Зварювальна проволока", sub:"Обдирка зварних швів, A60S-BF41",
-   cols:["Зерно","Тип"],
+  {cat:"Зачисні диски", img:"images/photo_2026-08-30_11-57-43.jpg", brands:["BEST","GERRARD"],
+   name:"Зварювальний дріт Нержавійка 308/3084", sub:"Обдирка зварних швів, A60S-BF41",
+   cols:["Діаметр","Вага"],
    rows:[
     {
-      diameter: "Р 40",
-      thickness: ["Т29", "Т27"],
+      diameter: "0,8",
+      thickness: ["2кг", "7кг"],
       prices: ["20,00", "21,00"]
     },
     {
-      diameter: "Р 60",
-      thickness: ["Т29", "Т27"],
+      diameter: "1,0",
+      thickness: ["2кг", "7кг"],
       prices: ["20,00", "21,00"]
     },
     {
-      diameter: "Р 80",
-      thickness: ["Т29", "Т27"],
-      prices: ["20,00", "21,00"]
-    },
-    {
-      diameter: "Р 100",
-      thickness: ["Т29", "Т27"],
-      prices: ["20,00", "21,00"]
-    },
-    {
-      diameter: "Р 120",
-      thickness: ["Т29", "Т27"],
+      diameter: "1,2",
+      thickness: ["2кг", "7кг"],
       prices: ["20,00", "21,00"]
     },
    ]},
 
   {cat:"Пелюсткові диски", img:"images/images (4).jpg", brands:["BEST"],
-   name:"Зварювальна проволока", sub:"Шліфувальний, Т27 · soft / medium / hard",
-   cols:["Зерно","Тип"],
+   name:"Зварювальний дріт Алюміній ER 4043/5356", sub:"Шліфувальний, Т27 · soft / medium / hard",
+   cols:["Діаметр","Вага"],
    rows:[
     {
-      diameter: "Р 40",
-      thickness: ["Т29", "Т27"],
+      diameter: "0,8",
+      thickness: ["2кг", "7кг"],
       prices: ["20,00", "21,00"]
     },
     {
-      diameter: "Р 60",
-      thickness: ["Т29", "Т27"],
+      diameter: "1,0",
+      thickness: ["2кг", "7кг"],
       prices: ["20,00", "21,00"]
     },
     {
-      diameter: "Р 80",
-      thickness: ["Т29", "Т27"],
+      diameter: "1,2",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+
+{cat:"Зачисні диски", img:"images/photo_2026-08-30_11-57-52.jpg", brands:["BEST","Dneprometiz"],
+   name:"Розхідники на зварювання", sub:"СВ08Г2С, для напівавтомата",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "0,8",
+      thickness: ["5кг", "15к"],
       prices: ["20,00", "21,00"]
     },
     {
-      diameter: "Р 100",
-      thickness: ["Т29", "Т27"],
+      diameter: "1,0",
+      thickness: ["5к", "15к"],
       prices: ["20,00", "21,00"]
     },
     {
-      diameter: "Р 120",
-      thickness: ["Т29", "Т27"],
+      diameter: "1,2",
+      thickness: ["5к", "15к"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+  {cat:"Відрізні диски", img:"images/photo_2026-08-30_11-57-56.jpg", brands:["GERRARD","BEST"],
+   name:"Сізи", sub:"Метал / нержавіюча сталь, A60S-BF41",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "3",
+      thickness: ["1кг", "2,5кг", "5кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "4",
+      thickness: ["2,5кг", "5кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "5",
+      thickness: ["2,5кг", "5кг"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+  {cat:"Зачисні диски", img:"images/photo_2026-08-30_11-57-58.jpg", brands:["BEST","GERRARD"],
+   name:"Свердла, бури", sub:"Обдирка зварних швів, A60S-BF41",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "0,8",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,0",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,2",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+  {cat:"Пелюсткові диски", img:"images/photo_2026-08-30_11-58-01.jpg", brands:["BEST"],
+   name:"Мітчики, різці", sub:"Шліфувальний, Т27 · soft / medium / hard",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "0,8",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,0",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,2",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+
+   
+{cat:"Зачисні диски", img:"images/photo_2026-08-30_11-57-47.jpg", brands:["BEST","Dneprometiz"],
+   name:"Розхідники на зварювання", sub:"СВ08Г2С, для напівавтомата",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "0,8",
+      thickness: ["5кг", "15к"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,0",
+      thickness: ["5к", "15к"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,2",
+      thickness: ["5к", "15к"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+  {cat:"Відрізні диски", img:"images/photo_2026-08-30_11-57-47.jpg", brands:["GERRARD","BEST"],
+   name:"Сізи", sub:"Метал / нержавіюча сталь, A60S-BF41",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "3",
+      thickness: ["1кг", "2,5кг", "5кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "4",
+      thickness: ["2,5кг", "5кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "5",
+      thickness: ["2,5кг", "5кг"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+  {cat:"Зачисні диски", img:"images/photo_2026-08-30_11-57-47.jpg", brands:["BEST","GERRARD"],
+   name:"Свердла, бури", sub:"Обдирка зварних швів, A60S-BF41",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "0,8",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,0",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,2",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+  {cat:"Пелюсткові диски", img:"images/photo_2026-08-30_11-57-47.jpg", brands:["BEST"],
+   name:"Мітчики, різці", sub:"Шліфувальний, Т27 · soft / medium / hard",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "0,8",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,0",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,2",
+      thickness: ["2кг", "7кг"],
       prices: ["20,00", "21,00"]
     },
    ]},
