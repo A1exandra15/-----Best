@@ -66,6 +66,8 @@ header{
     align-items: center;
     gap: 18px;               
     height: 70px;
+    display: flex;
+    align-items: center;
 }
 
 .wrap{
@@ -83,11 +85,12 @@ header{
 
 
 .top-nav{
-    margin: 0 0 0 520px;
     display: flex;
+    margin-left: auto;
 }   
         
 .top-nav a{
+    
     font-size: 13.5px;
     padding: 8px 12px;
     color: var(--txt-dim);
@@ -101,6 +104,7 @@ header{
 }
 
 .top-cta{
+    margin-left: 20px;
     color: #fff;
     background-color: var(--red);
     border-radius: 9px;
