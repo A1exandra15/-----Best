@@ -559,6 +559,7 @@ const DATA = [
       thickness: ["2кг", "7кг"],
       prices: ["20,00", "21,00"]
     },
+    
    ]},
 
   {cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-14-03.png", brands:["BEST"],
@@ -582,7 +583,90 @@ const DATA = [
     },
    ]},
 
+   {cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-14-03.png", brands:["BEST"],
+   name:"Металорізальний інструмент", sub:"Шліфувальний, Т27 · soft / medium / hard",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "0,8",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,0",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,2",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
 
+   {cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-14-03.png", brands:["BEST"],
+   name:"Металорізальний інструмент", sub:"Шліфувальний, Т27 · soft / medium / hard",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "0,8",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,0",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,2",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+   {cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-14-03.png", brands:["BEST"],
+   name:"Металорізальний інструмент", sub:"Шліфувальний, Т27 · soft / medium / hard",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "0,8",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,0",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,2",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+   {cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-14-03.png", brands:["BEST"],
+   name:"Металорізальний інструмент", sub:"Шліфувальний, Т27 · soft / medium / hard",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "0,8",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,0",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,2",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+  
   ];
 
 const grid=document.getElementById('grid');
