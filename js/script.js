@@ -605,7 +605,7 @@ const DATA = [
     },
    ]},
 
-  {cat:"Сізи", img:"images/photo_2026-09-03_15-14-036.png", brands:["GERRARD","BEST"],
+  {cat:"Сізи", img:"images/photo_2026-09-20_12-38-14.jpg", brands:["GERRARD","BEST"],
    name:"Засоби індивідуального захисту", sub:"Засоби захисту - Голови, Рук, Очей, Тіла",
    cols:["Продукт","Тип/Вага"],
    rows:[
@@ -690,7 +690,7 @@ const DATA = [
     },
    ]},
 
-   {cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-14-03.png", brands:["BEST"],
+   {cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-14-036.png", brands:["BEST"],
    name:"Металорізальний інструмент", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Вага"],
    rows:[
