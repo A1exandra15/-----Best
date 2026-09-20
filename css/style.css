@@ -343,6 +343,7 @@ header{
 
 .card-head{
     padding: 15px 18px;
+    flex: 1;
 }
 
 .card-head h3{
@@ -420,13 +421,14 @@ header{
 
 .card-body{
     padding: 6px 8px 4px;
-    flex: 1;
+    /* flex: 1; */
 }
 
 table{
     width: 100%;
     border-collapse: collapse;
     font-size: 13px;
+
 }
 
 th{

@@ -398,6 +398,8 @@ const DATA = [
     },
 ]},
 
+
+   
  {cat:"Зварювальні дроти", img:"images/photo_2026-08-30_11-57-28.jpg", brands:["DNEPROMETIZ"],
    name:"Зварювальний дріт «Оміднений»", sub:"СВ08Г2С, для напівавтомата",
    cols:["Діаметр","Вага"],
@@ -419,7 +421,91 @@ const DATA = [
     },
    ]},
 
-  {cat:"Зварювальні електроди", img:"images/photo_2026-09-03_15-14-033.png", brands:["ASTOREL"],
+  {cat:"Зварювальні електроди", img:"images/photo_2026-09-20_12-01-25.jpg", brands:["ASTOREL"],
+   name:"Зварювальні єлектроди «Рутилові»", sub:"Метал / нержавіюча сталь, A60S-BF41",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "3",
+      thickness: ["1кг", "2,5кг", "5кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "4",
+      thickness: ["2,5кг", "5кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "5",
+      thickness: ["2,5кг", "5кг"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+  {cat:"Зварювальні дроти", img:"images/photo_2026-09-20_12-01-37.jpg", brands:["WELDING DRAGON"],
+   name:"Зварювальний дріт «Нержавійка 308/308L»", sub:"Обдирка зварних швів, A60S-BF41",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "0,8",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,0",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,2",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+  {cat:"Зварювальні дроти", img:"images/photo_2026-09-20_12-01-42.png", brands:["WELDING DRAGON"],
+   name:"Зварювальний дріт «Алюміній ER 4043/5356»", sub:"Шліфувальний, Т27 · soft / medium / hard",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "0,8",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,0",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,2",
+      thickness: ["2кг", "7кг"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+    {cat:"Зварювальні дроти", img:"images/photo_2026-09-03_15-14-033.png", brands:["DNEPROMETIZ"],
+   name:"Зварювальний дріт «Оміднений»", sub:"СВ08Г2С, для напівавтомата",
+   cols:["Діаметр","Вага"],
+   rows:[
+    {
+      diameter: "0,8",
+      thickness: ["5кг", "15к"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,0",
+      thickness: ["5к", "15к"],
+      prices: ["20,00", "21,00"]
+    },
+    {
+      diameter: "1,2",
+      thickness: ["5к", "15к"],
+      prices: ["20,00", "21,00"]
+    },
+   ]},
+
+  {cat:"Зварювальні електроди", img:"images/photo_2026-09-20_12-17-22.jpg", brands:["ASTOREL"],
    name:"Зварювальні єлектроди «Рутилові»", sub:"Метал / нержавіюча сталь, A60S-BF41",
    cols:["Діаметр","Вага"],
    rows:[
@@ -625,7 +711,7 @@ const DATA = [
     },
    ]},
 
-   {cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-14-03.png", brands:["BEST"],
+   {cat:"Мітчики, різці", img:"images/photo_2026-09-20_12-29-58.jpg", brands:["BEST"],
    name:"Металорізальний інструмент", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Вага"],
    rows:[
@@ -646,7 +732,7 @@ const DATA = [
     },
    ]},
 
-   {cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-14-03.png", brands:["BEST"],
+   {cat:"Мітчики, різці", img:"images/photo_2026-09-20_12-29-10.jpg", brands:["BEST"],
    name:"Металорізальний інструмент", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Вага"],
    rows:[
