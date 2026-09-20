@@ -626,7 +626,7 @@ const DATA = [
     },
    ]},
 
-  {cat:"Свердла, бури", img:"images/photo_2026-09-03_15-15-04.jpg", brands:["BEST","GERRARD"],
+  {cat:"Свердла, бури", img:"images/photo_2026-09-20_12-47-40.jpg", brands:["BEST","GERRARD"],
    name:"Свердла та бури - витратні інструменти для створення отворів", sub:"Обдирка зварних швів, A60S-BF41",
    cols:["Діаметр","Вага"],
    rows:[
@@ -648,7 +648,7 @@ const DATA = [
     
    ]},
 
-  {cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-14-03.png", brands:["BEST"],
+  {cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-15-04.jpg", brands:["BEST"],
    name:"Металорізальний інструмент", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Вага"],
    rows:[
