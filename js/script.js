@@ -165,7 +165,7 @@ const DATA = [
    ]},
 
 
-  {cat:"Зачисні диски", img:"images/Шліф диск Ataman.jpg", brands:["ATAMAN"],
+  {cat:"Зачисні диски", img:"images/photo_2026-09-03_15-14-03.jpg", brands:["ATAMAN"],
    name:"Диск зачисний «Атаман»", sub:"Тип T27 / T29",
    cols:["Діаметр","Товщина"],
    rows:[
@@ -191,7 +191,7 @@ const DATA = [
     },
    ]},
 
-  {cat:"Зачисні диски", img:"images/Шліф диск Gerrard.jpg", brands:["GERRARD"],
+  {cat:"Зачисні диски", img:"images/photo_2026-09-20_12-56-20.jpg", brands:["GERRARD"],
    name:"Диск зачисний «Жерард»", sub:"Тип T27 / T29",
    cols:["Діаметр","Товщина"],
    rows:[
@@ -217,7 +217,7 @@ const DATA = [
     },
    ]},
 
-  {cat:"Зачисні диски", img:"images/Шліф диск ZAK.jpg", brands:["ЗАК"],
+  {cat:"Зачисні диски", img:"images/photo_2026-09-20_12-57-22.jpg", brands:["ЗАК"],
    name:"Диск зачисний «Klingspor»", sub:"Тип T27 / T29",
    cols:["Діаметр","Товщина"],
    rows:[
@@ -243,7 +243,7 @@ const DATA = [
     },
    ]},
 
-  {cat:"Зачисні диски", img:"images/Шліф диск Kronpflex.jpg", brands:["Klingspor Kronenflex"],
+  {cat:"Зачисні диски", img:"images/photo_2026-09-20_12-58-28.jpg", brands:["Klingspor Kronenflex"],
    name:"Диск зачисний «ЗАК»", sub:"Тип T27 / T29",
    cols:["Діаметр","Товщина"],
    rows:[
