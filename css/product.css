@@ -194,9 +194,10 @@ header{
 
 .product-main-image{
     height: 400px;
+    width: 400px;
     border: 1px solid var(--line);
     border-radius: 16px;
-    
+    object-fit: cover;
     flex-direction: column;
     
 }
