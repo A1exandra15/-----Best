@@ -28,6 +28,7 @@ body{
     background:var(--bg);
     color:var(--txt);
     font-family:'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+    font-family: "Montserrat", sans-serif;
     line-height:1.5;
     overflow-x:hidden;
 }
@@ -295,6 +296,7 @@ header{
 .card:hover{
     background: var(--card-hover);
     transform: translateY(-3px);
+    cursor: pointer;
     
 }
 
