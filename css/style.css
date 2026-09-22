@@ -569,16 +569,20 @@ tbody td{
 
 .c-item a, .c-item span{
     display: block;
-    font-size: 15;
+    font-size: 14px;
     line-height: 1.7;
     color: var(--txt);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .c-item .small{
     font-size: 13px;
     font-weight: 400;
     color: var(--txt-dim);
+}
+
+.c-item:last-child{
+    object-fit: cover;
 }
 
 footer{

@@ -44,7 +44,7 @@ const DATA = [
    ]},
 
   {
-   id: "product-2", 
+   id: "product-2", group: "gerrard",
    cat:"Відрізні диски", img:"images/photo_2026-08-15_18-05-10.jpg", brands:["GERRARD"],
    name:"Диск відрізний «Жерард»", sub:"Метал / нержавіюча сталь, Виробництво КНР",
    cols:["Діаметр","Товщина"],
@@ -86,7 +86,7 @@ const DATA = [
     } 
    ]},
 
-  {id: "product-3", 
+  {id: "product-3", group: "zak",
    cat:"Відрізні диски", images:["images/photo_2026-08-15_18-05-12.jpg", "images/photo_2026-08-15_18-05-14.jpg"], brands:["ЗАК"],
    name:"Диск відрізний «ЗАК»", sub:"Метал / Сталь, Виробництво Україна «Запорізький абразивний комбінат»",
    cols:["Діаметр","Товщина"],
@@ -128,7 +128,7 @@ const DATA = [
     }
    ]},
 
-  {id: "product-4", 
+  {id: "product-4", group: "klingspor", 
    cat:"Відрізні диски", img:"images/photo_2026-08-15_18-05-16.jpg", brands:["Klingspor Kronenflex"],
    name:"Диск відрізний «Klingspor»", sub:"Метал / нержавіюча сталь, Розроблено в Німеччині — виготовлено в Європі",
    cols:["Діаметр","Товщина"],
@@ -198,7 +198,7 @@ const DATA = [
     },
    ]},
 
-  {id: "product-6", 
+  {id: "product-6", group: "gerrard",
     cat:"Зачисні диски", img:"images/photo_2026-09-20_12-56-20.jpg", brands:["GERRARD"],
    name:"Диск зачисний «Жерард»", sub:"Тип T27 / T29",
    cols:["Діаметр","Товщина"],
@@ -225,7 +225,7 @@ const DATA = [
     },
    ]},
 
-  {id: "product-7",
+  {id: "product-7", group: "zak",
     cat:"Зачисні диски", img:"images/photo_2026-09-20_12-57-22.jpg", brands:["ЗАК"],
    name:"Диск зачисний «Klingspor»", sub:"Тип T27 / T29",
    cols:["Діаметр","Товщина"],
@@ -252,7 +252,7 @@ const DATA = [
     },
    ]},
 
-  {id: "product-8",
+  {id: "product-8", group: "klingspor",
     cat:"Зачисні диски", img:"images/photo_2026-09-20_12-58-28.jpg", brands:["Klingspor Kronenflex"],
    name:"Диск зачисний «ЗАК»", sub:"Тип T27 / T29",
    cols:["Діаметр","Товщина"],
