@@ -198,7 +198,8 @@ const DATA = [
     },
    ]},
 
-  {cat:"Зачисні диски", img:"images/photo_2026-09-20_12-56-20.jpg", brands:["GERRARD"],
+  {id: "product-6", 
+    cat:"Зачисні диски", img:"images/photo_2026-09-20_12-56-20.jpg", brands:["GERRARD"],
    name:"Диск зачисний «Жерард»", sub:"Тип T27 / T29",
    cols:["Діаметр","Товщина"],
    rows:[
@@ -224,7 +225,8 @@ const DATA = [
     },
    ]},
 
-  {cat:"Зачисні диски", img:"images/photo_2026-09-20_12-57-22.jpg", brands:["ЗАК"],
+  {id: "product-7",
+    cat:"Зачисні диски", img:"images/photo_2026-09-20_12-57-22.jpg", brands:["ЗАК"],
    name:"Диск зачисний «Klingspor»", sub:"Тип T27 / T29",
    cols:["Діаметр","Товщина"],
    rows:[
@@ -250,7 +252,8 @@ const DATA = [
     },
    ]},
 
-  {cat:"Зачисні диски", img:"images/photo_2026-09-20_12-58-28.jpg", brands:["Klingspor Kronenflex"],
+  {id: "product-8",
+    cat:"Зачисні диски", img:"images/photo_2026-09-20_12-58-28.jpg", brands:["Klingspor Kronenflex"],
    name:"Диск зачисний «ЗАК»", sub:"Тип T27 / T29",
    cols:["Діаметр","Товщина"],
    rows:[
@@ -278,7 +281,8 @@ const DATA = [
 
 
 
-  {cat:"Пелюсткові диски", img:"images/КЛТ 1.png", brands:["BEST"],
+  {id: "product-9",
+    cat:"Пелюсткові диски", img:"images/КЛТ 1.png", brands:["BEST"],
    name:"Диск пелюстковий шліфувальний КЛТ «Оксид Алюмінія – для обробки Сталі»", sub:"Тип T27 (КЛТ - 1 ) / T29 ( КЛТ - 2 )",
    cols:["Зерно","Тип"],
    rows:[
@@ -310,7 +314,8 @@ const DATA = [
    ]},
 
 
-  {cat:"Пелюсткові диски", img:"images/haisser.png", brands:["HAISSER"],
+  {id: "product-10",
+    cat:"Пелюсткові диски", img:"images/haisser.png", brands:["HAISSER"],
    name:" Диск пелюстковий шліфувальний КЛТ   «Оксид Алюмінія – для обробки Сталі та загартовані та високоміцні сплави", sub:"Тип T27 (КЛТ - 1 ) / T29 ( КЛТ - 2 )",
    cols:["Зерно","Тип"],
    rows:[
@@ -342,7 +347,8 @@ const DATA = [
    ]},
 
 
-  {cat:"Пелюсткові диски", img:"images/цирконий.png", brands:["BEST"],
+  {id: "product-11",
+    cat:"Пелюсткові диски", img:"images/цирконий.png", brands:["BEST"],
    name:"Диск пелюстковий шліфувальний КЛТ   «Цирконієвий» 72 та90 пелюсток – для обробки нержавіючих та алюмінієвих виробів", sub:"Тип T27 (КЛТ - 1 ) / T29 ( КЛТ - 2 )",
    cols:["Зерно","Тип"],
    rows:[
@@ -374,7 +380,8 @@ const DATA = [
    ]},
 
 
-  {cat:"Пелюсткові диски", img:"images/Корал.png", brands:["BEST"],
+  {id: "product-12",
+    cat:"Пелюсткові диски", img:"images/Корал.png", brands:["BEST"],
     name:"Зачисні коралові кола – Дрібнофракційні зерна, з карбіду кремнію", sub:"Тип T27 (КЛТ - 1 ) ",
     cols:["Зерно","Тип"],
     rows:[
@@ -407,7 +414,8 @@ const DATA = [
 
 
    
- {cat:"Зварювальні дроти", img:"images/photo_2026-08-30_11-57-28.jpg", brands:["DNEPROMETIZ"],
+ {id: "product-13",
+    cat:"Зварювальні дроти", img:"images/photo_2026-08-30_11-57-28.jpg", brands:["DNEPROMETIZ"],
    name:"Зварювальний дріт «Оміднений»", sub:"СВ08Г2С, для напівавтомата",
    cols:["Діаметр","Вага"],
    rows:[
@@ -428,7 +436,8 @@ const DATA = [
     },
    ]},
 
-  {cat:"Зварювальні електроди", img:"images/photo_2026-09-20_12-01-25.jpg", brands:["ASTOREL"],
+  {id: "product-14",
+    cat:"Зварювальні електроди", img:"images/photo_2026-09-20_12-01-25.jpg", brands:["ASTOREL"],
    name:"Зварювальні єлектроди «Рутилові»", sub:"Метал / нержавіюча сталь, A60S-BF41",
    cols:["Діаметр","Вага"],
    rows:[
@@ -449,7 +458,8 @@ const DATA = [
     },
    ]},
 
-  {cat:"Зварювальні дроти", img:"images/photo_2026-09-20_12-01-37.jpg", brands:["WELDING DRAGON"],
+  {id: "product-15",
+    cat:"Зварювальні дроти", img:"images/photo_2026-09-20_12-01-37.jpg", brands:["WELDING DRAGON"],
    name:"Зварювальний дріт «Нержавійка 308/308L»", sub:"Обдирка зварних швів, A60S-BF41",
    cols:["Діаметр","Вага"],
    rows:[
@@ -470,7 +480,8 @@ const DATA = [
     },
    ]},
 
-  {cat:"Зварювальні дроти", img:"images/photo_2026-09-20_12-01-42.png", brands:["WELDING DRAGON"],
+  {id: "product-16",
+    cat:"Зварювальні дроти", img:"images/photo_2026-09-20_12-01-42.png", brands:["WELDING DRAGON"],
    name:"Зварювальний дріт «Алюміній ER 4043/5356»", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Вага"],
    rows:[
@@ -491,7 +502,8 @@ const DATA = [
     },
    ]},
 
-    {cat:"Зварювальні дроти", img:"images/photo_2026-09-03_15-14-033.png", brands:["DNEPROMETIZ"],
+    {id: "product-17",
+        cat:"Зварювальні дроти", img:"images/photo_2026-09-03_15-14-033.png", brands:["DNEPROMETIZ"],
    name:"Зварювальний дріт «Оміднений»", sub:"СВ08Г2С, для напівавтомата",
    cols:["Діаметр","Вага"],
    rows:[
@@ -512,7 +524,8 @@ const DATA = [
     },
    ]},
 
-  {cat:"Зварювальні електроди", img:"images/photo_2026-09-20_12-17-22.jpg", brands:["ASTOREL"],
+  {id: "product-18",
+    cat:"Зварювальні електроди", img:"images/photo_2026-09-20_12-17-22.jpg", brands:["ASTOREL"],
    name:"Зварювальні єлектроди «Рутилові»", sub:"Метал / нержавіюча сталь, A60S-BF41",
    cols:["Діаметр","Вага"],
    rows:[
@@ -533,7 +546,8 @@ const DATA = [
     },
    ]},
 
-  {cat:"Зварювальні дроти", img:"images/photo_2026-08-30_11-57-43.jpg", brands:["WELDING DRAGON"],
+  {id: "product-19",
+    cat:"Зварювальні дроти", img:"images/photo_2026-08-30_11-57-43.jpg", brands:["WELDING DRAGON"],
    name:"Зварювальний дріт «Нержавійка 308/308L»", sub:"Обдирка зварних швів, A60S-BF41",
    cols:["Діаметр","Вага"],
    rows:[
@@ -554,7 +568,8 @@ const DATA = [
     },
    ]},
 
-  {cat:"Зварювальні дроти", img:"images/photo_2026-09-03_15-14-0314.png", brands:["WELDING DRAGON"],
+  {id: "product-20",
+    cat:"Зварювальні дроти", img:"images/photo_2026-09-03_15-14-0314.png", brands:["WELDING DRAGON"],
    name:"Зварювальний дріт «Алюміній ER 4043/5356»", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Вага"],
    rows:[
@@ -576,7 +591,8 @@ const DATA = [
    ]},
 
 
-{cat:"Розхідники на зварювання", img:"images/photo_2026-08-30_11-57-52.jpg", brands:["BEST","Dneprometiz"],
+{id: "product-21",
+    cat:"Розхідники на зварювання", img:"images/photo_2026-08-30_11-57-52.jpg", brands:["BEST","Dneprometiz"],
    name:"Комплектуючі для зварювальних робіт", sub:"Пальники MB / RF 15,24,36,40   Пальники TIG WP-9,18,26",
    cols:["Продукт","Тип"],
    rows:[
@@ -612,7 +628,8 @@ const DATA = [
     },
    ]},
 
-  {cat:"Сізи", img:"images/photo_2026-09-20_12-38-14.jpg", brands:["GERRARD","BEST"],
+  {id: "product-22",
+    cat:"Сізи", img:"images/photo_2026-09-20_12-38-14.jpg", brands:["GERRARD","BEST"],
    name:"Засоби індивідуального захисту", sub:"Засоби захисту - Голови, Рук, Очей, Тіла",
    cols:["Продукт","Тип/Вага"],
    rows:[
@@ -633,7 +650,8 @@ const DATA = [
     },
    ]},
 
-  {cat:"Свердла, бури", img:"images/photo_2026-09-20_12-47-40.jpg", brands:["BEST","GERRARD"],
+  {id: "product-23",
+    cat:"Свердла, бури", img:"images/photo_2026-09-20_12-47-40.jpg", brands:["BEST","GERRARD"],
    name:"Свердла та бури - витратні інструменти для створення отворів", sub:"Обдирка зварних швів, A60S-BF41",
    cols:["Діаметр","Вага"],
    rows:[
@@ -655,7 +673,8 @@ const DATA = [
     
    ]},
 
-  {cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-15-04.jpg", brands:["BEST"],
+  {id: "product-24",
+    cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-15-04.jpg", brands:["BEST"],
    name:"Металорізальний інструмент", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Вага"],
    rows:[
@@ -676,7 +695,8 @@ const DATA = [
     },
    ]},
 
-   {cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-14-03.png", brands:["BEST"],
+   {id: "product-25",
+    cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-14-03.png", brands:["BEST"],
    name:"Металорізальний інструмент", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Вага"],
    rows:[
@@ -697,7 +717,8 @@ const DATA = [
     },
    ]},
 
-   {cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-14-036.png", brands:["BEST"],
+   {id: "product-26",
+    cat:"Мітчики, різці", img:"images/photo_2026-09-03_15-14-036.png", brands:["BEST"],
    name:"Металорізальний інструмент", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Вага"],
    rows:[
@@ -718,7 +739,8 @@ const DATA = [
     },
    ]},
 
-   {cat:"Мітчики, різці", img:"images/photo_2026-09-20_12-29-58.jpg", brands:["BEST"],
+   {id: "product-27",
+    cat:"Мітчики, різці", img:"images/photo_2026-09-20_12-29-58.jpg", brands:["BEST"],
    name:"Металорізальний інструмент", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Вага"],
    rows:[
@@ -739,7 +761,8 @@ const DATA = [
     },
    ]},
 
-   {cat:"Мітчики, різці", img:"images/photo_2026-09-20_12-29-10.jpg", brands:["BEST"],
+   {id: "product-28",
+    cat:"Мітчики, різці", img:"images/photo_2026-09-20_12-29-10.jpg", brands:["BEST"],
    name:"Металорізальний інструмент", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Вага"],
    rows:[
