@@ -35,26 +35,8 @@ function render(){
         window.location.href = `product_page.html?id=${d.id}`;
     };
     const brands=d.brands.map(b => `<span class="brand-tag">${highlight(b)}</span>`).join('');
-    const head=d.cols.map(c=>`<th>${c}</th>`).join('');
-    const body=d.rows.map(r => `
-    <tr class="size-row">
-        <td>${highlight(r.diameter)}</td>
-        <td>
-            <div class="variants" style="grid-template-columns: repeat(${r.thickness.length}, 1fr)">
-                ${r.thickness.map(x => `<span>${highlight(x)}</span>`).join("")}
-            </div>
-        </td>
-    </tr>
-
-    <tr class="price-row">
-        <td class="price-label">Ціна</td>
-        <td>
-            <div class="prices" style="grid-template-columns: repeat(${r.prices.length}, 1fr)">
-                ${r.prices.map(x => `<span>${x}</span>`).join("")}
-            </div>
-        </td>
-    </tr>
-`).join("");
+    const head='';
+    const body='';
 
     card.innerHTML=`
       <div class="card-media">
